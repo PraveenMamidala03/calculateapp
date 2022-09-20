@@ -1,40 +1,87 @@
 <!doctype html>
 <html>
-<head>
-<meta charset="UTF-8">
-<title>CM in Feet</title>
-<link rel="stylesheet" href="https://onlinebadi.com/ob/includes/css/bootstrap.min.css">
+<head itemscope itemtype="https://schema.org/WebSite">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title>What is 0.3 CM in Feet and Inches?</title>
+<meta name="description" content="What is 0.3 CM in Feet and Inches?" />
+<meta property="og:locale" content="en_US" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="0.3" />
+<meta property="og:description" content="What is 0.3 CM in Feet and Inches?" />
+<meta property="og:site_name" content="calculadora" />
+<meta name="twitter:title" content="0.3" />
+<meta name="twitter:description" content="What is 0.3 CM in Feet and Inches?" />
+<meta name="twitter:site" content="@calculadora" />
+<meta name="twitter:creator" content="@calculadora" />
+<meta name="twitter:label1" content="Written by" />
+<meta name="twitter:data1" content="calculadora" />
+<link rel="canonical" href="https://calculadora.xyz/convert/cmtofeet/0.4" />
+<meta name="robots" content="follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large"/>
+<script type="application/ld+json">
+            {
+                "@context": "https://schema.org",
+                "@type": "Article",
+                "mainEntityOfPage": {
+                    "@type": "WebPage",
+                    "@id": "https://calculadora.xyz/"
+                },
+                "headline": "Cursive Y: How to write Y in cursive",
+                "description": "Cursive Y is the 25th letter in the English alphabet. It is a consonant. Cursive, also known as script or longhand, is a style of handwriting in which letters",
+                "image": "https://calculadora.xyz/",
+                "author": {
+                    "@type": "Organization",
+					"url": "https://calculadora.xyz/",
+                    "name": "onlinebadi"
+                },
+                "publisher": {
+                    "@type": "Organization",
+                    "name": "Guru",
+                    "logo": {
+                        "@type": "ImageObject",
+                        "url": "https://calculadora.xyz/",
+                        "width": 300,
+                        "height": 100                    }
+                },
+                "datePublished": "Sep 12, 2022",
+                "dateModified": "Sep 12, 2022"
+            }
+        </script> 
+<script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": ["EducationalApplication", "WebApplication"],
+      "name": "0.3",
+      "operatingSystem": "All",
+      "applicationCategory": "BusinessApplication",
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "5",
+        "ratingCount": "50"
+      },
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "USD"
+      }
+    }
+</script>
+<link rel="stylesheet" href="https://calculadora.xyz/bootstrap.min.css">
 </head>
 <body>
 <div class="container">
-  <h1>What is cm in feet?</h1>
-  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin nec odio quis mauris posuere lobortis nec sed sapien. Aliquam sagittis justo vitae accumsan consectetur. Aenean ultrices lobortis nisi, vel cursus augue vulputate sed. Vivamus ornare ante nec bibendum ullamcorper. Integer varius eu nisl sed laoreet. Etiam sit amet nibh id arcu suscipit tristique ac ut est. Phasellus euismod nibh ac augue ultricies, nec egestas dui imperdiet. Nullam ac malesuada elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
-  <h2><strong>Free online converter: </strong></h2>
-  <p>Vestibulum interdum nibh et rutrum porta. Etiam viverra turpis eget sem ornare consectetur. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Sed quis consequat velit. Morbi fermentum lectus nec tristique rutrum. Maecenas lacinia mauris arcu, ac volutpat ex tempor a. Curabitur venenatis tempus suscipit. Duis faucibus leo vitae libero viverra, eget ornare justo dapibus. Duis in metus velit. Ut semper diam ut erat luctus, sed vestibulum orci sollicitudin. </p>
-  <div class="mb-5 mt-5">
-    <form name="convert" action="<?=base_url('convert/redirect/')?>" style="font-size:1.3em;border:solid 1px #B7D7AF;border-radius:7px;background-color:#EEEEEE;margin-right:10px;padding-left:10px;padding-right:10px" method='post'>
-      <br>
-      <table border="0" cellpadding="7" cellspacing="0">
-        <tbody>
-          <tr>
-            <td><input type="number" step="0.1" name="unit1" style="width:250px;font-size:1em"  value=""></td>
-            <td><strong>cm</strong></td>
-          </tr>
-          <tr>
-            <td align="center" id="ftin">&nbsp;</td>
-            <td>&nbsp;</td>
-          </tr>
-          <tr>
-            <td><input type="number" step="0.1" name="unit2" style="width:250px;font-size:1em"  value=""></td>
-            <td><strong>feet</strong></td>
-          </tr>
-          <tr>
-            <td><input type="submit" value="Convert" style="font-size:1em;margin-bottom:15px" ></td>
-          </tr>
-        </tbody>
-      </table>
-    </form>
-  </div>
+  <h1>Select Height Conversions</h1>
+  <ul>
+  <li><a href="<?=base_url('height/cm-in-feet')?>">Convert CM Centimeters</a></a></li>
+  <li><a href="<?=base_url('height/inches-in-feet')?>">Convert Inches</a></li>
+  <li><a href="<?=base_url('height/meter-in-feet')?>">Convert Meter (m)</a></li>
+  <li><a href="<?=base_url('height/km-in-feet')?>">Convert Kilometer (km)</a></li>
+  <li><a href="<?=base_url('height/feet-in-feet')?>">Convert Foot (ft)</a></li>
+  <li><a href="<?=base_url('height/mm-in-feet')?>">Convert Millimeter (mm)</a></li>
+  <li><a href="<?=base_url('height/mile-in-feet')?>">Convert Mile</a></li>
+  <li><a href="<?=base_url('height/yard-in-feet')?>">Convert Yard (yd)</a></li>
+</ul>
+  
 </div>
 </body>
 </html>

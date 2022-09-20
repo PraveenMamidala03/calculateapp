@@ -1,82 +1,200 @@
 <!doctype html>
 <html>
-<head>
-<meta charset="UTF-8">
-<title>What is <?php echo $cm ?> cm in feet?</title>
-<link rel="stylesheet" href="https://onlinebadi.com/ob/includes/css/bootstrap.min.css">
+<head itemscope itemtype="https://schema.org/WebSite">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title>What is 0.3 <?= $lenth ?> in <?=$type?> and Inches?</title>
+<meta name="description" content="What is 0.3 <?= $lenth ?> in <?=$type?> ?" />
+<meta property="og:locale" content="en_US" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="0.3" />
+<meta property="og:description" content="What is 0.3 <?= $lenth ?> in <?=$type?> ?" />
+<meta property="og:site_name" content="calculadora" />
+<meta name="twitter:title" content="0.3" />
+<meta name="twitter:description" content="What is 0.3 <?= $lenth ?> in <?=$type?> " />
+<meta name="twitter:site" content="@calculadora" />
+<meta name="twitter:creator" content="@calculadora" />
+<meta name="twitter:label1" content="Written by" />
+<meta name="twitter:data1" content="calculadora" />
+<link rel="canonical" href="https://calculadora.xyz/convert/cmtofeet/0.4" />
+<meta name="robots" content="follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large"/>
+<script type="application/ld+json">
+            {
+                "@context": "https://schema.org",
+                "@type": "Article",
+                "mainEntityOfPage": {
+                    "@type": "WebPage",
+                    "@id": "https://calculadora.xyz/"
+                },
+                "headline": "Cursive Y: How to write Y in cursive",
+                "description": "Cursive Y is the 25th letter in the English alphabet. It is a consonant. Cursive, also known as script or longhand, is a style of handwriting in which letters",
+                "image": "https://calculadora.xyz/",
+                "author": {
+                    "@type": "Organization",
+					"url": "https://calculadora.xyz/",
+                    "name": "onlinebadi"
+                },
+                "publisher": {
+                    "@type": "Organization",
+                    "name": "Guru",
+                    "logo": {
+                        "@type": "ImageObject",
+                        "url": "https://calculadora.xyz/",
+                        "width": 300,
+                        "height": 100                    }
+                },
+                "datePublished": "Sep 12, 2022",
+                "dateModified": "Sep 12, 2022"
+            }
+        </script> 
+<script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": ["EducationalApplication", "WebApplication"],
+      "name": "0.3",
+      "operatingSystem": "All",
+      "applicationCategory": "BusinessApplication",
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "5",
+        "ratingCount": "50"
+      },
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "USD"
+      }
+    }
+</script>
+<link rel="stylesheet" href="https://calculadora.xyz/bootstrap.min.css">
 </head>
 
 <body>
 <div class="container">
-  <h1>What is <?php echo $cm ?> cm in feet?</h1>
-	<div class="mb-5 mt-5">
-  <form name="convert"  action="<?=base_url('convert/redirect/')?>" method="post" style="font-size:1.3em;border:solid 1px #B7D7AF;border-radius:7px;background-color:#EEEEEE;margin-right:10px;padding-left:10px;padding-right:10px">
-    <br>
-    <table border="0" cellpadding="7" cellspacing="0">
-      <tbody>
-        <tr>
-          <td><input type="number" step="0.1" name="unit1" style="width:250px;font-size:1em" onchange="forward()" value="<?php echo $cm ?>" autocomplete="off"></td>
-          <td><strong>cm</strong></td>
-        </tr>
-        <tr>
-          <td align="center" id="ftin">&nbsp;</td>
-          <td>&nbsp;</td>
-        </tr>
-        <tr>
-          <td><input type="number" step="0.1" name="unit2" style="width:250px;font-size:1em" onchange="backward()" value="<?php echo $feet ?>"></td>
-          <td><strong>feet</strong></td>
-        </tr>
-        <tr>
-          <td><input type="submit" value="Convert" style="font-size:1em;margin-bottom:15px" onclick="forward()"></td>
-        </tr>
-      </tbody>
-    </table>
-  </form></div>
-  <h2><strong>Conversion of <?php echo $cm ?> cm in feet by using online converter: </strong></h2>
-  <p>What are the <?php echo $cm ?> centimeters in feet and inches? <strong>How tall is <?php echo $cm ?> cm in feet and height?</strong> In this article, you will learn how to convert <strong><?php echo $cm ?> cm in feet</strong> using simple calculations. Here we will let you know how to use our free online and handy calculator to convert the centimeters to feet using different conversion methods. Use our page to convert the centimeter into feet.</p>
-  <h2><strong><?php echo $cm ?> cm in feet = <?php echo $feet ?></strong></h2>
-  <p>Centimeters and feet are the measuring units to measure the length or height of an object or a person. The centimeters to feet converter uses the correct formula to get accurate results every time. If you want to convert <strong><?php echo $cm ?>cm to feet</strong></p>
-  <h3><strong>Definition of <?php echo $cm ?> centimeter:</strong></h3>
-  <p>A centimeter (cm) is a unit used to measure the length in the International System of Units. </p>
-  <p> In centimeters, centi equals one-hundredth of a meter. It is a Component of the metric system.
-    
-    Height is commonly measured in centimeters in countries like the United States.</p>
-  <h2><strong>Definition of <?php echo $cm ?> feet: </strong></h2>
-  <p> It is a non-SI unit of length. The definition of feet was also defined as equivalent. If we have the measurements in centimeters then we can convert them into feet to illustrate the height. It is used to measure the height of a building, tower, or person.</p>
-  <h2><strong>How many feet is <?php echo $cm ?>cm? </strong></h2>
-  <p>Converting <?php echo $cm ?> centimeters equals to feet is easy by simply using the calculator or applying the formula to change the length <?php echo $cm ?> cm to ft. </p>
-  <p> If you want to convert <strong><?php echo $cm ?> cm to ft</strong> you need to multiply the length in centimeters.</p>
-  <h3><strong>How tall is <?php echo $cm ?> cm in feet: </strong></h3>
-  <h2><strong>How to convert <?php echo $cm ?>cm in feet as a fraction: </strong></h2>
-  <p>For every decimal number, it has <?php echo $cm ?> as the denominator. So to convert <?php echo $cm ?>cm in feet as a fraction. The numerator is <?php echo $cm ?> cm in feet as a decimal and <?php echo $cm ?> as the denominator and then begins the simplification. The below is the answer to <?php echo $cm ?> cm in feet as a fraction in its easiest form: </p>
-  <h2><strong>Advantages of cm to ft converter: </strong></h2>
-  <p>You need to use this resource for converting measurements because the converter is completely online. You don’t require space on your computer or mobile device for installing any application. This converter can be used for multiple unit conversions. The converter will be constantly updated so that you can use it whenever you need it.</p>
-  <h4><strong>Conclusion: </strong></h4>
-  <p>This is detailed information about <?php echo $cm ?>cm to feet. If you want more information on centimeters, see our cm to feet page that can be found in the title menu. Here you can convert <strong><?php echo $cm ?> cm to feet and inches</strong>. </p>
-  <p> We will describe briefly the possibilities of converting <?php echo $cm ?> centimeters with our calculator. Our conversion Table mentioned earlier will explain how the converter works and you can have all these calculations in one approach by downloading and installing software. It will be easy and effortless when you follow the instructions properly. </p>
-  <div class="mb-5 mt-5">
-    <form name="convert" action="<?=base_url('convert/redirect/')?>" method="post" style="font-size:1.3em;border:solid 1px #B7D7AF;border-radius:7px;background-color:#EEEEEE;margin-right:10px;padding-left:10px;padding-right:10px">
-      <br>
+  <h1>What is <?=$num?> <?= $lenth ?> in <?=$type?>?</h1>
+  <div class="mb-5 mt-5 p-4 bg-light rounded border-success  w-auto">
+    <form name="convert"  action="<?=base_url('height/redirect/')?>" method="post">
       <table border="0" cellpadding="7" cellspacing="0">
         <tbody>
           <tr>
-            <td><input type="number" step="0.1" name="unit1" style="width:250px;font-size:1em" onchange="forward()" value="<?php echo $cm ?>"></td>
-            <td><strong>cm</strong></td>
+            <td><input type="number" step="0.1" name="unit1" style="width:250px;font-size:1em" value="<?=$num?>" autocomplete="off"></td>
+            <td><strong><?= $lenth ?></strong></td>
+          <input type="hidden"  name='lenth' value="<?=$lenth?>"  class="form-control" required>
+          <input type="hidden"  name='unitMenu' value="<?=$type?>"  class="form-control" required>
+
           </tr>
           <tr>
             <td align="center" id="ftin">&nbsp;</td>
             <td>&nbsp;</td>
           </tr>
           <tr>
-            <td><input type="number" step="0.1" name="unit2" style="width:250px;font-size:1em" onchange="backward()" value="<?php echo $feet ?>"></td>
-            <td><strong>feet</strong></td>
+            <td><input type="number" step="0.1" name="unit2" style="width:250px;font-size:1em"  value="<?=$value?>"></td>
+            <td><strong><?=$type?></strong></td>
           </tr>
           <tr>
-            <td><input type="submit" value="Convert" style="font-size:1em;margin-bottom:15px" ></td>
+            <td><input type="submit" value="Convert" style="font-size:1em;margin-bottom:15px"></td>
           </tr>
         </tbody>
       </table>
     </form>
+  </div>
+  <h2 id="conversion-of-<?=$num?>-cmin-feet-by-using-online-converter"><strong>Conversion of <?=$num?> <?= $lenth ?> in <?=$type?> by using online converter: </strong></h2>
+  <p>What are the <?=$num?> centimeters in <?=$type?> ? <strong>How tall is <?=$num?> <?= $lenth ?> in <?=$type?> ?</strong> In this article, you will learn how to convert <strong><?=$num?> <?= $lenth ?> in <?=$type?></strong> using simple calculations. Here we will let you know how to use our free online and handy calculator to convert the centimeters to <?=$type?> using different conversion methods. Use our page to convert the centimeter into <?=$type?>.</p>
+  <div class="table-of-content p-4 bg-light rounded border-success mb-5">
+    <h5><strong>Table of Contents</strong></h5>
+    <ul>
+      <li><a href="#conversion-of-<?=$num?>-cmin-<?=$type?>-by-using-online-converter">Conversion of <?=$num?> <?= $lenth ?> in <?=$type?> by using online converter</a></li>
+      <li><a href="#<?=$num?>-cm-in-<?=$type?>-=<?=$value?>"><?=$num?> <?= $lenth ?> in <?=$type?> =<?=$value?></a></li>
+      <li><a href="#definition-of-<?=$num?>-centimeter">Definition of <?=$num?> centimeter:</a></li>
+      <li><a href="#definition-of-<?=$num?>-<?=$type?>">Definition of <?=$num?> <?=$type?>:</a></li>
+      <li><a href="#how-many-<?=$type?>-is-<?=$num?>cm">How many <?=$type?> is <?=$num?>cm?</a></li>
+      <li><a href="#how-tall-is-<?=$num?>-cm-in-<?=$type?>">How tall is <?=$num?> <?= $lenth ?> in <?=$type?>:</a></li>
+    </ul>
+  </div>
+  <h2 id="<?=$num?>-cm-in-<?=$type?>-=<?=$value?>"><strong><?=$num?> <?= $lenth ?> in<?=$type?> =<?=$value?></strong></h2>
+  <p>Centimeters and<?=$type?> are the measuring units to measure the length or height of an object or a person. The centimeters to<?=$type?> converter uses the correct formula to get accurate results every time. If you want to convert <strong><?=$num?>cm to <?=$type?></strong></p>
+  <h3 id="definition-of-<?=$num?>-centimeter"><strong>Definition of <?=$num?> centimeter:</strong></h3>
+  <p>A centimeter (cm) is a unit used to measure the length in the International System of Units. </p>
+  <p> In centimeters, centi equals one-hundredth of a meter. It is a Component of the metric system.
+    
+    Height is commonly measured in centimeters in countries like the United States.</p>
+  <h2 id="definition-of-<?=$num?>-feet"><strong>Definition of <?=$num?><?=$type?>: </strong></h2>
+  <p> It is a non-SI unit of length. The definition of<?=$type?> was also defined as equivalent. If we have the measurements in centimeters then we can convert them into<?=$type?> to illustrate the height. It is used to measure the height of a building, tower, or person.</p>
+  <h2 id="how-many-feet-is-<?=$num?>cm"><strong>How many<?=$type?> is <?=$num?>cm? </strong></h2>
+  <p>Converting <?=$num?> centimeters equals to<?=$type?> is easy by simply using the calculator or applying the formula to change the length <?=$num?> <?= $lenth ?> to ft. </p>
+  <p> If you want to convert <strong><?=$num?> <?= $lenth ?> to ft</strong> you need to multiply the length in centimeters.</p>
+  <h3 id="how-tall-is-<?=$num?>-cm-in-feet"><strong>How tall is <?=$num?> <?= $lenth ?> in<?=$type?>: </strong></h3>
+  <h2><strong>How to convert <?=$num?>cm in<?=$type?> as a fraction: </strong></h2>
+  <p>For every decimal number, it has <?=$num?> as the denominator. So to convert <?=$num?>cm in<?=$type?> as a fraction. The numerator is <?=$num?> <?= $lenth ?> in<?=$type?> as a decimal and <?=$num?> as the denominator and then begins the simplification. The below is the answer to <?=$num?> <?= $lenth ?> in<?=$type?> as a fraction in its easiest form: </p>
+  <h2><strong>Advantages of <?= $lenth ?> to ft converter: </strong></h2>
+  <p>You need to use this resource for converting measurements because the converter is completely online. You don’t require space on your computer or mobile device for installing any application. This converter can be used for multiple unit conversions. The converter will be constantly updated so that you can use it whenever you need it.</p>
+  <h4><strong>Conclusion: </strong></h4>
+  <p>This is detailed information about <?=$num?>cm to<?=$type?>. If you want more information on centimeters, see our <?= $lenth ?> to<?=$type?> page that can be found in the title menu. Here you can convert <strong><?=$num?> <?= $lenth ?> to<?=$type?> and inches</strong>. </p>
+  <p> We will describe briefly the possibilities of converting <?=$num?> centimeters with our calculator. Our conversion Table mentioned earlier will explain how the converter works and you can have all these calculations in one approach by downloading and installing software. It will be easy and effortless when you follow the instructions properly. </p>
+  <div class="mb-5 mt-5 p-4 bg-light rounded border-success w-auto">
+    <h3 class="mb-3"><strong>Select which height conversion you want</strong></h3>
+    <form name="convert" action="<?=base_url('height/redirect/')?>" method="post">
+      <div class="row">
+        
+        <div class="col-md-2">
+          <input type="number" name="unit1" autocomplete="off" placeholder="Value" class="form-control">
+          <input type="hidden"  name='lenth' value="<?=$lenth?>"  class="form-control" required>
+        </div>
+        <div class="col-md-2 pl-0">
+          <select name="unitMenu" class="form-control" required>
+            <ul>
+            <?php if( $lenth != 'cm') {  ?>
+            <option value="cm"><?=$lenth?> to cm</option>
+            <?php } if( $lenth != 'feet') {  ?>
+            <option value="feet"><?=$lenth?> to feet</option>
+            <?php } if( $lenth != 'inches') {  ?>
+                <option value="inches"><?=$lenth?> to inches</option>
+            <?php }if( $lenth != 'meter') {  ?>
+            <option value="meter"><?=$lenth?> to meter (m)</option>
+            <?php }if( $lenth != 'km') {  ?>
+                <option value="km"><?=$lenth?> to kilometer (km)</option>
+            <?php  } if( $lenth != 'mile') {?>
+                <option value="mile"><?=$lenth?> to mile</option>
+            <?php } if( $lenth != 'yard') {?>
+            <option value="yard"><?=$lenth?> to yard (yd)</option>
+            <?php }?>
+            </ul>
+          </select>
+        </div>
+        <tr>
+          <td><input class="btn btn-primary" type="submit" value="Convert" ></td>
+        </tr>
+      </div>
+    </form>
+  </div>
+  <div class="table-responsive">
+    <h2> Height Conversion Table</h2>
+    <table class="table bordered table-sm table-striped">
+      <thead>
+        <tr>
+          <th>cm</th>
+          <th>Inches</th>
+          <th>Feet</th>
+          <th>Meters</th>
+          <th>Km</th>
+        </tr>
+      </thead>
+      <tbody>
+      <?php
+            $x=$num;
+            $y=$num+0.99;
+            for ($x; $x <=  $y; $x = $x + 0.01) {?>
+              <tr>
+                <td><?=$x ?></td>
+                <td><?=number_format((float)$x / 2.54, 3, '.', ''); ?></td>
+                <td><?=number_format((float)$x / 30.48, 3, '.', '') ?></td>
+                <td><?=number_format((float)$x / 100, 3, '.', '') ?></td>
+                <td><?=number_format((float)$x / 100000, 3, '.', '') ?></td>
+              </tr>
+              <?php
+                  } ?>
+          </tbody>
+    </table>
   </div>
 </div>
 </body>
