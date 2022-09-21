@@ -3,15 +3,15 @@
 <head itemscope itemtype="https://schema.org/WebSite">
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<title>What is 0.3<?=$lenth?> in Feet and Inches?</title>
-<meta name="description" content="What is <?=$lenth?> in Feet and Inches?" />
+<title><title>What is <?=$num?> <?= $lenth ?> in feet?</title></title>
+<meta name="description" content="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum" />
 <meta property="og:locale" content="en_US" />
 <meta property="og:type" content="article" />
-<meta property="og:title" content="0.3" />
+<meta property="og:title" content="What is <?=$num?> <?= $lenth ?> in feet?" />
 <meta property="og:description" content="What is 0.3<?=$lenth?> in Feet and Inches?" />
 <meta property="og:site_name" content="calculadora" />
-<meta name="twitter:title" content="0.3" />
-<meta name="twitter:description" content="What is 0.3<?=$lenth?> in Feet and Inches?" />
+<meta name="twitter:title" content="What is <?=$num?> <?= $lenth ?> in feet?" />
+<meta name="twitter:description" content="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum" />
 <meta name="twitter:site" content="@calculadora" />
 <meta name="twitter:creator" content="@calculadora" />
 <meta name="twitter:label1" content="Written by" />
@@ -72,6 +72,13 @@
 <body>
 <div class="container">
   <h1>What is <?=$lenth?> in feet?</h1>
+  <nav aria-label="breadcrumb">
+  <ol class="breadcrumb p-0 ml-0 mb-2 pt-2">
+    <li class="breadcrumb-item"><a href="<?=base_url('')?>">Home</a></li>
+    <li class="breadcrumb-item"><a href="<?=base_url('height')?>">Height</a> </li>
+    <li class="breadcrumb-item active" aria-current="page"><?=$lenth.' to feet'?></a></li>
+  </ol>
+</nav>
   <div class="mb-5 mt-5 p-4 bg-light rounded border-success  w-auto">
     <form name="convert"  action="<?=base_url('height/redirect/')?>" method="post">
       <div class="row">
