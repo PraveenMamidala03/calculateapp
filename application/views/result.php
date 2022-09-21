@@ -1,77 +1,17 @@
-<!doctype html>
-<html>
-<head itemscope itemtype="https://schema.org/WebSite">
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<title>What is 0.3 <?= $lenth ?> in <?=$type?> and Inches?</title>
-<meta name="description" content="What is 0.3 <?= $lenth ?> in <?=$type?> ?" />
-<meta property="og:locale" content="en_US" />
-<meta property="og:type" content="article" />
-<meta property="og:title" content="0.3" />
-<meta property="og:description" content="What is 0.3 <?= $lenth ?> in <?=$type?> ?" />
-<meta property="og:site_name" content="calculadora" />
-<meta name="twitter:title" content="0.3" />
-<meta name="twitter:description" content="What is 0.3 <?= $lenth ?> in <?=$type?> " />
-<meta name="twitter:site" content="@calculadora" />
-<meta name="twitter:creator" content="@calculadora" />
-<meta name="twitter:label1" content="Written by" />
-<meta name="twitter:data1" content="calculadora" />
-<link rel="canonical" href="https://calculadora.xyz/convert/cmtofeet/0.4" />
-<meta name="robots" content="follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large"/>
-<script type="application/ld+json">
-            {
-                "@context": "https://schema.org",
-                "@type": "Article",
-                "mainEntityOfPage": {
-                    "@type": "WebPage",
-                    "@id": "https://calculadora.xyz/"
-                },
-                "headline": "Cursive Y: How to write Y in cursive",
-                "description": "Cursive Y is the 25th letter in the English alphabet. It is a consonant. Cursive, also known as script or longhand, is a style of handwriting in which letters",
-                "image": "https://calculadora.xyz/",
-                "author": {
-                    "@type": "Organization",
-					"url": "https://calculadora.xyz/",
-                    "name": "onlinebadi"
-                },
-                "publisher": {
-                    "@type": "Organization",
-                    "name": "Guru",
-                    "logo": {
-                        "@type": "ImageObject",
-                        "url": "https://calculadora.xyz/",
-                        "width": 300,
-                        "height": 100                    }
-                },
-                "datePublished": "Sep 12, 2022",
-                "dateModified": "Sep 12, 2022"
-            }
-        </script> 
-<script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": ["EducationalApplication", "WebApplication"],
-      "name": "0.3",
-      "operatingSystem": "All",
-      "applicationCategory": "BusinessApplication",
-      "aggregateRating": {
-        "@type": "AggregateRating",
-        "ratingValue": "5",
-        "ratingCount": "50"
-      },
-      "offers": {
-        "@type": "Offer",
-        "price": "0",
-        "priceCurrency": "USD"
-      }
-    }
-</script>
-<link rel="stylesheet" href="https://calculadora.xyz/bootstrap.min.css">
-</head>
 
-<body>
+<?php include('header.php') ?>
+
 <div class="container">
+  
   <h1>What is <?=$num?> <?= $lenth ?> in <?=$type?>?</h1>
+  <nav aria-label="breadcrumb">
+  <ol class="breadcrumb p-0 ml-0 mb-2 pt-2">
+    <li class="breadcrumb-item"><a href="<?=base_url('')?>">Home</a></li>
+    <li class="breadcrumb-item"><a href="<?=base_url('height')?>">Height</a> </li>
+    <li class="breadcrumb-item " aria-current="page"><a href="<?=base_url('height/').$lenth.'-to-'.$type?>"><?=$lenth.' to '.$type?></a></li>
+    <li class="breadcrumb-item active" aria-current="page"><?=$num.' '.$lenth?></li>
+  </ol>
+</nav>
   <div class="mb-5 mt-5 p-4 bg-light rounded border-success  w-auto">
     <form name="convert"  action="<?=base_url('height/redirect/')?>" method="post">
       <table border="0" cellpadding="7" cellspacing="0">
@@ -199,5 +139,4 @@
     </table>
   </div>
 </div>
-</body>
-</html>
+<?php include('footer.php') ?>
