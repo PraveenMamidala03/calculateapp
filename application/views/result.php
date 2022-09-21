@@ -104,26 +104,28 @@
     <h5><strong>Table of Contents</strong></h5>
     <ul>
       <li><a href="#conversion-of-<?=$num?>-cmin-<?=$type?>-by-using-online-converter">Conversion of <?=$num?> <?= $lenth ?> in <?=$type?> by using online converter</a></li>
-      <li><a href="#<?=$num?>-cm-in-<?=$type?>-=<?=$value?>"><?=$num?> <?= $lenth ?> in <?=$type?> =<?=$value?></a></li>
-      <li><a href="#definition-of-<?=$num?>-centimeter">Definition of <?=$num?> centimeter:</a></li>
+      <li><a href="#<?=$num?><?= $lenth ?>-in-<?=$type?>=<?=$value?>"><?=$num?> <?= $lenth ?> in <?=$type?> =<?=$value?></a></li>
+      <li><a href="#definition-of-<?=$num?>-<?= $lenth ?>">Definition of <?=$num?> <?= $lenth ?>:</a></li>
       <li><a href="#definition-of-<?=$num?>-<?=$type?>">Definition of <?=$num?> <?=$type?>:</a></li>
-      <li><a href="#how-many-<?=$type?>-is-<?=$num?>cm">How many <?=$type?> is <?=$num?>cm?</a></li>
-      <li><a href="#how-tall-is-<?=$num?>-cm-in-<?=$type?>">How tall is <?=$num?> <?= $lenth ?> in <?=$type?>:</a></li>
+      <li><a href="#how-many-<?=$type?>-is-<?=$num?>cm">How many <?=$type?> is <?=$num?> <?= $lenth ?>?</a></li>
+      <li><a href="#how-tall-is-<?=$num?>-<?= $lenth ?>-in-<?=$type?>">How tall is <?=$num?> <?= $lenth ?> in <?=$type?>:</a></li>
     </ul>
   </div>
-  <h2 id="<?=$num?>-cm-in-<?=$type?>-=<?=$value?>"><strong><?=$num?> <?= $lenth ?> in<?=$type?> =<?=$value?></strong></h2>
+  <h2 id="<?=$num?>-cm-in-<?=$type?>-=<?=$value?>">
+  <strong><?=$num?> <?= $lenth ?> in <?=$type?> =<?=$value?></strong>
+</h2>
   <p>Centimeters and<?=$type?> are the measuring units to measure the length or height of an object or a person. The centimeters to<?=$type?> converter uses the correct formula to get accurate results every time. If you want to convert <strong><?=$num?>cm to <?=$type?></strong></p>
-  <h3 id="definition-of-<?=$num?>-centimeter"><strong>Definition of <?=$num?> centimeter:</strong></h3>
+  <h3 id="definition-of-<?=$num?>-<?= $lenth ?>"><strong>Definition of <?=$num?> <?= $lenth ?>:</strong></h3>
   <p>A centimeter (cm) is a unit used to measure the length in the International System of Units. </p>
   <p> In centimeters, centi equals one-hundredth of a meter. It is a Component of the metric system.
     
     Height is commonly measured in centimeters in countries like the United States.</p>
   <h2 id="definition-of-<?=$num?>-feet"><strong>Definition of <?=$num?><?=$type?>: </strong></h2>
   <p> It is a non-SI unit of length. The definition of<?=$type?> was also defined as equivalent. If we have the measurements in centimeters then we can convert them into<?=$type?> to illustrate the height. It is used to measure the height of a building, tower, or person.</p>
-  <h2 id="how-many-feet-is-<?=$num?>cm"><strong>How many<?=$type?> is <?=$num?>cm? </strong></h2>
+  <h2 id="how-many-<?= $type ?>-is-<?=$num?>cm"><strong>How many<?=$type?> is <?=$num?> <?= $lenth ?>? </strong></h2>
   <p>Converting <?=$num?> centimeters equals to<?=$type?> is easy by simply using the calculator or applying the formula to change the length <?=$num?> <?= $lenth ?> to ft. </p>
   <p> If you want to convert <strong><?=$num?> <?= $lenth ?> to ft</strong> you need to multiply the length in centimeters.</p>
-  <h3 id="how-tall-is-<?=$num?>-cm-in-feet"><strong>How tall is <?=$num?> <?= $lenth ?> in<?=$type?>: </strong></h3>
+  <h3 id="how-tall-is-<?=$num?>-<?= $lenth ?>-in-<?=$type?>"><strong>How tall is <?=$num?> <?= $lenth ?> in<?=$type?>: </strong></h3>
   <h2><strong>How to convert <?=$num?>cm in<?=$type?> as a fraction: </strong></h2>
   <p>For every decimal number, it has <?=$num?> as the denominator. So to convert <?=$num?>cm in<?=$type?> as a fraction. The numerator is <?=$num?> <?= $lenth ?> in<?=$type?> as a decimal and <?=$num?> as the denominator and then begins the simplification. The below is the answer to <?=$num?> <?= $lenth ?> in<?=$type?> as a fraction in its easiest form: </p>
   <h2><strong>Advantages of <?= $lenth ?> to ft converter: </strong></h2>
