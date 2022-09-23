@@ -3,14 +3,14 @@
 <head itemscope itemtype="https://schema.org/WebSite">
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<title><title>What is <?=$num?> <?= $lenth ?> in feet?</title></title>
-<meta name="description" content="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum" />
+<title>What is <?=$lenth?> in <?=$type?>?</title>
+<meta name="description" content="We have updated many length and height calculation. You can find and caluclate what you want easily on web." />
 <meta property="og:locale" content="en_US" />
 <meta property="og:type" content="article" />
-<meta property="og:title" content="What is <?=$num?> <?= $lenth ?> in feet?" />
-<meta property="og:description" content="What is 0.3<?=$lenth?> in Feet and Inches?" />
+<meta property="og:title" content="What is in <?=$type?>?" />
+<meta property="og:description" content="What is 0.3<?=$lenth?> in <?=$type?> ?" />
 <meta property="og:site_name" content="calculadora" />
-<meta name="twitter:title" content="What is <?=$num?> <?= $lenth ?> in feet?" />
+<meta name="twitter:title" content="What is in <?=$type?>?" />
 <meta name="twitter:description" content="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum" />
 <meta name="twitter:site" content="@calculadora" />
 <meta name="twitter:creator" content="@calculadora" />
@@ -70,13 +70,27 @@
 </head>
 
 <body>
+	<header class="Regular shadow mb-4"> 
+  <!-- Fixed navbar -->
+  <div class="navbar-container">
+    <nav class="navbar navbar-expand-lg navbar-dark rounded">
+      <div class="container"> <a class="navbar-brand text-primary" href="//calculadora.xyz/"><span class="main-logo"><strong>Calculadora</strong> |</span> <span class="text-secondary">THE BEST CALUCLATOR</span></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent3" aria-controls="navbarSupportedContent3" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span></button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent3">
+          <ul class="navbar-nav ml-auto mb-2 mb-lg-0">
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </div>
+</header>
 <div class="container">
-  <h1>What is <?=$lenth?> in feet?</h1>
+  <h1>What is <?=$lenth?> to <?=$type?>?</h1>
   <nav aria-label="breadcrumb">
   <ol class="breadcrumb p-0 ml-0 mb-2 pt-2">
     <li class="breadcrumb-item"><a href="<?=base_url('')?>">Home</a></li>
     <li class="breadcrumb-item"><a href="<?=base_url('height')?>">Height</a> </li>
-    <li class="breadcrumb-item active" aria-current="page"><?=$lenth.' to feet'?></a></li>
+    <li class="breadcrumb-item active" aria-current="page"><?=$lenth.' to '.$type?></a></li>
   </ol>
 </nav>
   <div class="mb-5 mt-5 p-4 bg-light rounded border-success  w-auto">
@@ -116,10 +130,10 @@
       </div>
     </form>
   </div>
-  <h2><strong><?=$lenth?> in feet by using online converter: </strong></h2>
-  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+  <h2><strong><?=$lenth?> in <?=$type?> by using online converter: </strong></h2>
+  <p>We have updated many length and height calculation. You can find and caluclate what you want easily on web.</p>
   <div class="table-responsive">
-    <h3><strong>Browse Centimeters <?=$lenth?> in feets</strong></h3>
+    <h3><strong>Browse  <?=$lenth?> in <?=$type?></strong></h3>
     <table class="table bordered">
       <tbody>
         <tr>
@@ -610,5 +624,4 @@
     </table>
   </div>
 </div>
-</body>
-</html>
+<?php include('footer.php') ?>

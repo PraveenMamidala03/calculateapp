@@ -7,7 +7,6 @@ $route["height/(:any)/(:any)"] = 'height/result/$2';
 $route["height/(:any)"] = 'height/convert/$1';
 
 $route['default_controller'] = 'height';
-$route['404']             = "height/my_404";
-$route['404_override']    = 'height/my_404';
+$route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;
 

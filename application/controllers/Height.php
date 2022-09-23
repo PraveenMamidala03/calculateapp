@@ -24,8 +24,10 @@ class Height extends CI_Controller {
 	}
 	public function convert($lenth)
 	{
+		$url= $this->uri->segment(2);
+		$url=explode("-",$url);
 		$lenth=explode("-",$lenth);
-		$data = array('lenth' => $lenth[0]);
+		$data = array('lenth' => $lenth[0],'type'=>$url[2]);
 		$this->load->view('cm-to-feet',$data);
 	}
 	public function redirect()
@@ -61,7 +63,7 @@ class Height extends CI_Controller {
 			}elseif ($url[2] == 'feet') {
 				$value=$num[0] / 12;
 			}elseif ($url[2] == 'meter') {
-				$value=$num[0] / 100;
+				$value=$num[0] / 39.37;
 			}elseif ($url[2] == 'km') {
 				$value=$num[0] * 0.0000254;
 			}elseif ($url[2] == 'mm') {
@@ -174,5 +176,8 @@ class Height extends CI_Controller {
 		$data = array('value' => $value, 'num' => $num[0],'type'=>$url[2] , 'lenth' => $url[0]);
 		$this->load->view('result',$data);
 	}
+	public function my_404(){
+		$this->load->view('my_404');
 
+	}
 }
