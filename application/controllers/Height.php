@@ -8,7 +8,7 @@ class Height extends CI_Controller {
 	}
 	public function convert($lenth)
 	{
-		$check=array('cm','meter','feet','mm','inches','mile','yard','in','to');
+		$check=array('cm','meter','feet','mm','inches','km','mile','yard','in','to');
 		$url= $this->uri->segment(2);
 		$url=explode("-",$url);
 		if (!(in_array($url[0], $check)) || !(in_array($url[1], $check)) || !(in_array($url[2], $check)) ) {
@@ -29,11 +29,11 @@ class Height extends CI_Controller {
 		$num=explode("-",$num);
 		$url= $this->uri->segment(2);
 		$url=explode("-",$url);
-		$check=array('cm','meter','feet','mm','inches','mile','yard','to');
+		$check=array('cm','meter','feet','mm','inches','km','mile','yard','to');
 		if (!(in_array($url[0], $check)) || !(in_array($url[1], $check)) || !(in_array($url[2], $check)) ) {
 			redirect('/');
 		}
-		$check1=array('cm','meter','feet','mm','inches','mile','yard');
+		$check1=array('cm','meter','feet','mm','inches','km','mile','yard');
 		$url2= $this->uri->segment(3);
 		$url2=explode("-",$url2);
 		if (empty(is_numeric($url2[0])) || !(in_array($url2[1], $check1))  ) {

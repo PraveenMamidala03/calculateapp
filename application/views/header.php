@@ -4,15 +4,15 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="msvalidate.01" content="A3A59281A39600F182FFFB95F7CB414C" />
-<title>What is <?=$num?> <?= $lenth ?> in <?=$type?>?</title>
-<meta name="description" content="What are the <?=$num?> centimeters in <?=$type?>? How tall is <?=$num?> <?= $lenth ?> in <?=$type?> ? In this article, you will learn how to convert <?=$num?> <?= $lenth ?> in <?=$type?> using simple calculations." />
+<title>What is <?=$num?> <?= $lenth ?> to <?=$type?>?</title>
+<meta name="description" content="What are the <?=$num?> centimeters in <?=$type?>? How tall is <?=$num?> <?= $lenth ?> to <?=$type?> ? In this article, you will learn how to convert <?=$num?> <?= $lenth ?> in <?=$type?> using simple calculations." />
 <meta property="og:locale" content="en_US" />
 <meta property="og:type" content="article" />
-<meta property="og:title" content="What is <?=$num?> <?= $lenth ?> in <?=$type?>?" />
+<meta property="og:title" content="What is <?=$num?> <?= $lenth ?> to <?=$type?>?" />
 <meta property="og:description" content="What are the <?=$num?> centimeters in <?=$type?> ? How tall is <?=$num?> <?= $lenth ?> in <?=$type?> ? In this article, you will learn how to convert <?=$num?> <?= $lenth ?> in <?=$type?> using simple calculations." />
 <meta property="og:site_name" content="calculadora" />
-<meta name="twitter:title" content="What is <?=$num?> <?= $lenth ?> in <?=$type?>?" />
-<meta name="twitter:description" content="What are the <?=$num?> centimeters in <?=$type?> ? How tall is <?=$num?> <?= $lenth ?> in <?=$type?> ? In this article, you will learn how to convert <?=$num?> <?= $lenth ?> in <?=$type?> using simple calculations." />
+<meta name="twitter:title" content="What is <?=$num?> <?= $lenth ?> to <?=$type?>?" />
+<meta name="twitter:description" content="What are the <?=$num?> centimeters in <?=$type?> ? How tall is <?=$num?> <?= $lenth ?> to <?=$type?> ? In this article, you will learn how to convert <?=$num?> <?= $lenth ?> in <?=$type?> using simple calculations." />
 <meta name="twitter:site" content="@calculadora" />
 <meta name="twitter:creator" content="@calculadora" />
 <meta name="twitter:label1" content="Written by" />
@@ -27,8 +27,8 @@
                     "@type": "WebPage",
                     "@id": "https://calculadora.xyz/"
                 },
-                "headline": "What is <?=$num?> <?= $lenth ?> in <?=$type?>?",
-                "description": "What are the <?=$num?> centimeters in <?=$type?> ? How tall is <?=$num?> <?= $lenth ?> in <?=$type?> ? In this article, you will learn how to convert <?=$num?> <?= $lenth ?> in <?=$type?> using simple calculations. Here we will let you know how to use our free online and handy calculator to convert the centimeters to <?=$type?> using different conversion methods. Use our page to convert the centimeter into <?=$type?>.",
+                "headline": "What is <?=$num?> <?= $lenth ?> to <?=$type?>?",
+                "description": "What are the <?=$num?> centimeters in <?=$type?> ? How tall is <?=$num?> <?= $lenth ?> to <?=$type?> ? In this article, you will learn how to convert <?=$num?> <?= $lenth ?> in <?=$type?> using simple calculations. Here we will let you know how to use our free online and handy calculator to convert the centimeters to <?=$type?> using different conversion methods. Use our page to convert the centimeter into <?=$type?>.",
                 "image": "https://calculadora.xyz/",
                 "author": {
                     "@type": "Organization",
@@ -130,7 +130,7 @@
   "@type": "FAQPage",
   "mainEntity": [{
     "@type": "Question",
-    "name": "Conversion of <?=$num?> <?= $lenth ?> in <?=$type?> by using online converter",
+    "name": "Conversion of <?=$num?> <?= $lenth ?> to <?=$type?> by using online converter",
     "acceptedAnswer": {
       "@type": "Answer",
       "text": "What are the <?=$num?>  in <?=$type?>? How tall is <?=$num?> <?= $lenth ?> to <?=$type?> ?In this article, you will learn how to convert <?=$num?> <?= $lenth ?> in <?=$type?> using simple calculations. Here we will let you know how to use our free online and handy calculator to convert the centimeters to <?=$type?> using different conversion methods. Use our page to convert the centimeter into <?=$type?>"

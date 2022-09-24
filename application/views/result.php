@@ -30,6 +30,8 @@
 			</div>
 		</div></div>
 <div class="container">
+	<div class="row">
+	<div class="col-md-9">
   <h2 id="conversion-of-<?=$num?>-cmin-feet-by-using-online-converter"><strong>Conversion of <?=$num?> <?= $lenth ?> in <?=$type?> by using online converter: </strong></h2>
 	<div class="add mt-5 mb-5">
 			<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6411152360257874"
@@ -65,13 +67,13 @@
   <p>A <?=$lenth?> is a unit used to measure the length in the international system of units. </p>
 	<div><h2>Convert from inches to other height</h2></div>
 	<div class="row h-buttons">
-  <div class="col-md-3 mb-4"><a href="//calculadora.xyz/height/inches-to-cm">inches to cm</a></div>
-  <div class="col-md-3 mb-4"><a href="//calculadora.xyz/height/inches-to-feet">inches to feet</a></div>
-  <div class="col-md-3 mb-4"><a href="//calculadora.xyz/height/inches-to-meter">inches to meter</a></div>
-  <div class="col-md-3 mb-4"><a href="//calculadora.xyz/height/inches-to-km">inches to km</a></div>
-  <div class="col-md-3 mb-4"><a href="//calculadora.xyz/height/inches-to-mm">inches to mm</a></div>
-  <div class="col-md-3 mb-4"><a href="//calculadora.xyz/height/inches-to-mile">inches to mile</a></div>
-  <div class="col-md-3 mb-4"><a href="//calculadora.xyz/height/inches-to-yard">inches to yard</a></div>
+  <div class="col-md-3 mb-4"><a href="<?=base_url('')?>height/inches-to-cm">inches to cm</a></div>
+  <div class="col-md-3 mb-4"><a href="<?=base_url('')?>height/inches-to-feet">inches to feet</a></div>
+  <div class="col-md-3 mb-4"><a href="<?=base_url('')?>height/inches-to-meter">inches to meter</a></div>
+  <div class="col-md-3 mb-4"><a href="<?=base_url('')?>height/inches-to-km">inches to km</a></div>
+  <div class="col-md-3 mb-4"><a href="<?=base_url('')?>height/inches-to-mm">inches to mm</a></div>
+  <div class="col-md-3 mb-4"><a href="<?=base_url('')?>height/inches-to-mile">inches to mile</a></div>
+  <div class="col-md-3 mb-4"><a href="<?=base_url('')?>height/inches-to-yard">inches to yard</a></div>
 </div>
   <h2 id="definition-of-<?=$num?>-feet"><strong>Definition of <?=$num?><?=$type?>: </strong></h2>
   <p> It is a non-SI unit of length. The definition of<?=$type?> was also defined as equivalent. If we have the measurements in <?= $lenth ?> then we can convert them into<?=$type?> to illustrate the height. It is used to measure the height of a building, tower, or person.</p>
@@ -122,12 +124,26 @@
       </div>
     </form>
   </div>
+		    
+ </div>
+		<div class="col-md-3">
+		<h3><strong>Convert your length</strong></h3>
+			<ul>
+			<li><a href="<?=base_url('')?>height/inches-to-cm">inches to cm</a></li>
+  <li><a href="<?=base_url('')?>height/inches-to-feet">inches to feet</a></li>
+  <li><a href="<?=base_url('')?>height/inches-to-meter">inches to meter</a></li>
+  <li><a href="<?=base_url('')?>height/inches-to-km">inches to km</a></li>
+  <li><a href="<?=base_url('')?>height/inches-to-mm">inches to mm</a></li>
+  <li><a href="<?=base_url('')?>height/inches-to-mile">inches to mile</a></li>
+  <li><a href="<?=base_url('')?>height/inches-to-yard">inches to yard</a></li>
+			</ul>
+		</div>
+	</div>
   <div class="">
     <h2><?=$num?> <?= $lenth ?> to <?=$type?> height conversion table </h2>
-    
- 
+
       
-        <div class="row">
+        <div class="row related-table"> 
       <?php
             $x=$num;
             $y=$num+0.99;
